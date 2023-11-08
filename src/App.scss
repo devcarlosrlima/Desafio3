@@ -1,0 +1,45 @@
+@use "./Variables.scss" as *;
+
+*{
+    background-color: $main-color;
+    color: $text-color;
+    margin:0;
+    padding: 0;
+    font-family: $font;
+}
+
+.nav{
+    background-color: $secundy-color;
+    width: 100%;
+    height: 75px;
+    margin-bottom: 140px;
+}
+
+.nav button{
+    background-color: transparent;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-top: 22px;
+    width: 174px;
+    height: 54px; 
+    border: none;
+    font-size: 25px;
+    
+}
+
+.tar{
+    background: #ffff !important;
+    color: $secundy-color !important;
+    margin-left: 35px;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.org{
+    margin-left: 60px;
+}

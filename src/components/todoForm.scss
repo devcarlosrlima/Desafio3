@@ -1,0 +1,34 @@
+@use '../Variables.scss' as *;
+
+.todoForm{
+ display: flex;
+ justify-content: space-between;
+ 
+}
+
+.todoInput{
+    width: 279px;
+    height: 35px;
+    border: none;
+    font-size: 25px;
+  
+}
+
+.todoInput::placeholder{
+    color: $text-color !important;
+    font-size: 25px;
+    font-style: italic;
+  
+}
+
+.todoBtn{
+    font-size: 35px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+    
+}
+
+.todoBtn:hover{
+    transform: translateY(-8px);
+}

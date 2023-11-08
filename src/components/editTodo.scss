@@ -1,0 +1,30 @@
+@use '../Variables.scss' as *;
+
+.todoInput{
+    width: 279px;
+    height: 35px;
+    border: none;
+    font-size: 25px;
+  
+}
+
+.todoInput::placeholder{
+    color: $text-color !important;
+    font-size: 25px;
+    font-style: italic;
+  
+}
+
+.todoEditBtn{
+    font-size: 20px;
+    border: 3px solid rgb(77, 74, 74);
+    cursor: pointer;
+    margin-bottom: 10px;
+    width: 120px;
+    height: 40px;
+    
+}
+
+.todoEditBtn:hover{
+    transform: translateX(-8px);
+}
