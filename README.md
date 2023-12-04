@@ -1,12 +1,10 @@
-# React + Vite
+# Lista de Tarefas
 
-site: https://delightful-longma-7c81f9.netlify.app/
+Projeto Front-end, lista de tarefas densenvolvida com React.Js, utilizando alguns hooks do react e com funções de criar, editar e deletar tarefas.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Tecnologia usada
 
-
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- JavaScript
+- React.Js
+- Sass
+- React Router
