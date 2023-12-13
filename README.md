@@ -26,11 +26,13 @@ const editTodo = id => {
     console.log(todos)
   }
 
-  
-
 ### Tecnologia usada
 
 - JavaScript
 - React.Js
 - Sass
 - React Router
+
+### Print do Projeto
+
+![image](https://github.com/devcarlosrlima/Lista-de-tarefas/assets/136191341/84f3fc1a-7b99-4086-a815-ed676be450b5)
