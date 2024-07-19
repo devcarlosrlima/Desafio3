@@ -41,14 +41,14 @@ const editTodo = id => {
         <li>Opções</li>
       </ul>
         <hr />
-
+      <TodoForm addTodo={addTodo}/>  
         {todos.map((todo, index) =>(
           todo.isEditing ? (<EditTodo editTodo={editTask} task={todo}/>) :( 
           <Todo task={todo} key={index} 
        deleteTodo={deleteTodo} editTodo={editTodo} />
           )     
       ))}
-      <TodoForm addTodo={addTodo}/>    
+        
       
     </div>
   )
